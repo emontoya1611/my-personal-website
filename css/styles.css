@@ -1,0 +1,239 @@
+.head-static {
+  background-color: white;
+  width: 100%;
+  height: 25px;
+  position: fixed;
+  top: 0;
+}
+
+
+body {
+  text-align: center;
+  margin: 0px;
+  background-color: white;
+  color: #40514E;
+}
+
+.topConteiner {
+  padding-top: 120px;
+  /* background-image: radial-gradient(circle at 47.46% 79.08%, #3b4a43 0, #343d38 16.67%, #2a2c2a 33.33%, #1b181b 50%, #08000b 66.67%, #000000 83.33%, #000000 100%); */
+  /* background-image: radial-gradient(circle at 50% 68.95%, #2d445d 0, #274358 5.56%, #234053 11.11%, #203d4c 16.67%, #1f3944 22.22%, #1e343b 27.78%, #1e2e32 33.33%, #1e282a 38.89%, #1d2121 44.44%, #1c1919 50%, #1a1111 55.56%, #190509 61.11%, #170003 66.67%, #140000 72.22%, #100000 77.78%, #0a0000 83.33%, #020000 88.89%, #000000 94.44%, #000000 100%); */
+  /* background-color: #232f35; */
+  /* background-color: #002b44; */
+  /* background-color: #0e0b16; */
+  background-color: #181818;
+  height: 623px;
+}
+
+.nombre-titulo {
+  font-size: 90px;
+  font-family: 'Sacramento', cur;
+  letter-spacing: 4px;
+  padding-top: 50px;
+  margin: 0;
+  color: #F2F2F2;
+}
+
+.subtitle {
+  font-family: 'Montserrat', sans-serif;
+  color: #F2F2F2;
+  font-size: 2.3rem;
+  margin: 1 auto auto;
+}
+
+.pro {
+  text-decoration: underline;
+  margin: 0;
+}
+
+.estrella-top {
+  width: 115px;
+  position: absolute;
+  top: 45px;
+  right: 250px;
+}
+
+.estrella-botton {
+  width: 150px;
+  position: absolute;
+  left: 230px;
+  top: 260px;
+}
+
+.luna {
+  width: 600px;
+  margin-top: 0;
+  clip-path: inset(0 0 50% 0);
+  position: relative;
+  bottom: -14px;
+}
+
+.foto-perfil {
+  margin: 100px 0 20px 0;
+  width: 200px;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+  letter-spacing: 0.4px;
+  line-height: 1.5;
+}
+
+.middle-container {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.skills {
+
+  margin-bottom: 160px;
+}
+
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+  letter-spacing: 0.4px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.foto-skill {
+
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.foto-capoeira {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+p {
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3rem;
+}
+
+hr {
+  border-style: none;
+  border-top: dotted;
+  border-color: #5c5c5c;
+  border-width: 6px;
+  width: 5%;
+  margin: 100px auto;
+}
+
+.contact-me {
+  margin: 90px 0 110px 0;
+}
+
+.message {
+  font-size: 20px;
+}
+
+.help {
+  font-size: 43px;
+  font-weight: bolder;
+}
+
+.canHelp {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.helpDescription {
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.4px;
+  line-height: 1.5;
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.bottom-container {
+  background-color: #181818;
+  color: #11999E;
+  height: 80px;
+  padding: 30px;
+}
+
+
+.derechos {
+  font-size: 14px;
+  color: #F2F2F2;
+  position: relative;
+  bottom: -35px;
+}
+
+/* .perfil-1 {
+  color: #11999E;
+  font-size: 23px;
+  position: relative;
+  bottom: -10px;
+  right: 10px;
+} */
+
+.redes {
+  color: #11999E;
+  font-size: 23px;
+  margin: 10px 20px;
+  text-decoration: none;
+  position: relative; 
+  bottom: -20px;
+}
+
+.redes:hover{
+  color: white;
+}
+
+a {
+  color: #11999E;
+  font-size: 23px;
+  margin: 10px 20px;
+  text-decoration: none;
+  color: #11999E;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
